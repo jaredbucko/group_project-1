@@ -1,32 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-     <!--Import Google Icon Font-->
-     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-     <!--Import materialize.css-->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- ref to our style.css -->
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <!-- Link to icon and google fonts-->
-    <script src="https://kit.fontawesome.com/eb2106c888.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Dosis&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- ref to our style.css -->
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/eb2106c888.js" crossorigin="anonymous"></script>
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Dosis&display=swap" rel="stylesheet">
+  <!-- animate.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <!-- page name -->
+  <title>Pass the Remote</title>
+</head>
 
     <title>Pass the Remote</title>
 </head>
 <body>
 
   <!--Navbar (if we want it) -->
-        <nav>
-                <div class="nav-wrapper">
-                <nav style="background-color: #501b1d">
-                    <i class="fas fa-film" id="film-icon"></i>
-                  <ul id="nav-mobile" class="right hide-on-med-and-down">
-                  </ul>
-                </div>
-              </nav>
+  <nav>
+    <div class="nav-wrapper">
+      <nav style="background-color: #501b1d">
+      <i class="fas fa-film" id="film-icon"></i>
+      <ul id="nav-mobile" class="right hide-on-med-and-down"></ul>
+    </div>
+  </nav>
+
+  <!-- Main Container with card(s) -->
+  <main>
+
+    <h1>Pass the Remote</h1>
+
+    <div class="animated slideInUp container" id="introCard">
+      <div class="card main-section">
+        <div class="col s12 card-content black-text" id="prompt">
+          <h3 class="margin">Introduction</h3>
+          <p>Feeling indecisive in a sea of movies and television? </p>
+          <p>Just answer a few questions and we'll recommend something you might like!</p>
+          <br>
+          <button class="btn waves-effect waves-light btn-large" id="startBtn"><i class="material-icons right">arrow_forward</i>Pass The Remote</button>
+        </div>
+      </div>
+    </div>
 
 <!-- Main Container with card(s) -->
     <main>   

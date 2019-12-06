@@ -39,6 +39,7 @@ main {
   }
 .page-footer {
     background-color: #501b1d;
+    padding: 0px;
 }
 
 #tmdb-icon {
